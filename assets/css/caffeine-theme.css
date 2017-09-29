@@ -3383,24 +3383,25 @@ table {
     .tags-overlay .tags-container .tags a:hover {
       background-color: #85715f; }
 
-.page .tag-header {
+.page-template .tag-header {
   position: absolute;
   z-index: 15;
   margin-top: -15px;
   text-align: center;
   width: 900px; }
-  .page .tag-header .tags {
+  .page-template .tag-header .tags {
     line-height: normal; }
-    .page .tag-header .tags a {
+    .page-template .tag-header .tags a {
       padding: 8px 14px;
       font-size: 12px;
       background-color: #56817A; }
-.page .profile-image {
+
+.page-template .profile-image {
   margin-top: -80px;
   position: absolute;
   text-align: center;
   width: 100%; }
-  .page .profile-image img {
+  .page-template .profile-image img {
     max-width: 150px;
     border: 2px solid #56817A;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
