@@ -1,4 +1,4 @@
-<aside class="cover animated" style="background-image: url({{@blog.cover}})">
+<aside class="cover animated" style="background-image: url({{@blog.cover_image}})">
     <div class="background-container">
         <div class="profile">
             <header id="aside-header" class="nav-header mobile">
@@ -8,7 +8,7 @@
             </header>
             {{#if @blog.logo}}
             <div class="profile-logo">
-                <a id="avatar-link" class="open-link" title="What's new with {{@blog.title}}" href="{{@blog.url}}/#open">
+                <a id="avatar-link" class="open-link" title="Link to homepage for {{@blog.title}}" href="{{@blog.url}}/#open">
                     <img src="{{@blog.logo}}" alt="{{@blog.title}} avatar" class="avatar rounded hvr-buzz-out" />
                 </a>
             </div>
@@ -23,7 +23,7 @@
                     <h3 id="profile-resume"></h3>
                 </a>
                 <hr class="divider long" />
-                <h2>{{@blog.description}}</h2>
+                <p><h2>{{@blog.description}}</h2></p>
                 <hr class="divider short" />
 
                         <li class="card1">
@@ -92,12 +92,10 @@
                     {{/foreach}}
                     </div>
             </div>
-
             <p></p>
             <div class="socmenu">    
                 {{> social}}
             </div>
-
         </div>
     </div>
 </aside>
